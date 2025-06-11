@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Custom colors
+$medium-green: #4C9141;
+$light-green: #8BC34A;
+$dark-green: #2E7D32;
+
+// Apply custom colors
+.btn-primary {
+    background-color: $medium-green;
+    border-color: $medium-green;
+
+    &:hover {
+        background-color: $dark-green;
+        border-color: $dark-green;
+    }
+}
+
+.navbar-brand {
+    color: $medium-green;
+}
